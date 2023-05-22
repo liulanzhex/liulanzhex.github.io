@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+html,body{
+    text-align: center;
+    font-family: "宋体";
+}
+
+/*滚动条样式*/
+*::-webkit-scrollbar {
+    width: 8px;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(40, 40, 40, 0.6);
+}
+
+
+/*-----内容区域------*/
+#content{
+    width: 80%;
+    height: 0%;
+    background-color: rgba(249,249,249,0.7);
+    border-radius: 8px; /*圆角边框*/
+    box-shadow: 0px 0px 20px rgba(40,40,40,0.1);/*给div增加阴影*/
+    overflow: hidden; /*溢出元素框的内容会被修剪，并且其余内容是不可见的。*/
+    transition: 0.5s; /*过渡效果，将鼠标悬停在一个 div 元素上，逐步改变盒子的某些样式*/
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    z-index: 4;
+}
+
+/*入场动画的文字样式*/
+#Entranceanimation{
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #d0d0d0;
+
+    line-height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateY(50%); /*在页面垂直移动元素*/
+
+    z-index: 3;
+
+}
+
+/*背景图样式*/
+#Backgroundimage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 背景图片 */
+    background-image: url(../resources/image/beijin.jpg);
+    background-size: cover;       /*扩大图，覆盖背景，图可能会显示不完整*/
+    background-position: center;  /*设置初始位置*/
+    background-repeat: no-repeat; /*设置背景图不重复*/
+
+    z-index: 2;
+}
+
+/*最底层一行小字的样式*/
+#leixing{
+    color: #282828;     /*字体颜色*/
+    font-size: 12px;    /*字体大小*/
+    letter-spacing: 1px; /*字符间距*/
+    text-align: center; /*文本水平对齐且居中*/
+    height: 36px;       /*设置元素自身的高度*/
+    line-height: 36px;  /*设置元素内每行文字的高度*/
+
+    position: fixed; /*固定位置:相对窗口定位*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;/*默认设置margin:auto可以让块级元素水平居中，auto 默认只会计算左右边距*/
+
+    z-index: 1;
+}
+

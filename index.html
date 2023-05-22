@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--css样式调用-->
+    <link rel="stylesheet" type="text/css" href="css/beijin.css">
+    <link rel="stylesheet" type="text/css" href="css/cbl.css">
+    <link rel="stylesheet" type="text/css" href="css/cblxzqu.css">
+    <!--js样式调用-->
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/背景.js"></script>
+    <script src="js/侧边栏.js" defer="defer"></script>
+    <script src="js/侧边栏选择区域.js" defer="defer"></script>
+
+</head>
+<body>
+<!--电脑PC端-->
+<div id="pc">
+    <!--主体内容-->
+    <div id="content">
+        <!--侧边栏区域-->
+        <nav>
+        <ul id="ulcbl">
+            <div class="ulcbl_top"><!--头像-->
+                <div class="ulcbl_top_img"></div>
+                <div class="ulcbl_top_text">祝你永不迷茫，勇往直前</div>
+            </div>
+            <!--导航栏-->
+            <li id="ulcbl_li01" style="background-color: #ececec; "><img src="resources/image/cblxzqy/ulcbl_li.png" >
+                <span>站点首页</span>
+            </li>
+            <li id="ulcbl_li02"><img src="resources/image/cblxzqy/ulcbl_li.png" />
+                <span>关于本站</span>
+            </li>
+            <li id="ulcbl_li03"><img src="resources/image/cblxzqy/ulcbl_li.png" />
+                <span>资源共享</span>
+            </li>
+            <li id="ulcbl_li04"><img src="resources/image/cblxzqy/ulcbl_li.png" />
+                <span>模块四</span>
+            </li>
+            <li id="ulcbl_li05"><img src="resources/image/cblxzqy/ulcbl_li.png" />
+                <span>模块五</span>
+            </li>
+            <li id="ulcbl_li06"><img src="resources/image/cblxzqy/ulcbl_li.png" />
+                <span>模块六</span>
+            </li>
+        </ul>
+        </nav>
+        <!--侧边栏选择区域-->
+        <div id="cblxzqy">
+            <!-- 站点首页  侧边栏选择区域_01-->
+            <div id="cblxzqy_01">
+
+            </div>
+            <!-- 关于本站  侧边栏选择区域_02-->
+            <div id="cblxzqy_02">
+                <div class="cblxzqy_02_img">
+                    <div class="cblxzqy_02_text">关于本站</div>
+                </div>
+                <!-- 站长资料 -->
+                <div class="cblxzqy_02_zhiliao" style="height: 500px">
+                    <h3>UP/主/资/料</h3>
+                    <div class="cblxzqy_02_zhiliao1">
+                        <img src="resources/image/cblxzqy/02/fuzhu.png">
+                        <a href="https://space.bilibili.com/1301858618" target="_blank" rel="noopener noreferrer">联系腐竹</a>
+                    </div>
+                    <div class="cblxzqy_02_zhiliao2">
+                        <p>身份：一名实况UP主</p>
+                        <p>UP名：最红的龙虾</p>
+                        <p>邮箱：1573362946@qq.com</p>
+                        <p>性别：boy</p>
+                        <p>年龄：不告诉你 [一位有理想的青少年]</p>
+                        <p>特长：腿特长</p>
+                        <p>爱好：唱、跳、rep、篮...</p>
+                        <p>性格：落落大方,喜欢自由</p>
+                    </div>
+                </div>
+                <!--站长事迹-->
+                <div class="cblxzqy_02_zhiliao3">
+                    <h3>UP/主/事/迹</h3>
+                    <div><img src="resources/image/cblxzqy/02/fuzhu_sj01.png"></div>
+                    <div><img src="resources/image/cblxzqy/02/fuzhu_sj02.png"></div>
+                    <div><img src="resources/image/cblxzqy/02/fuzhu_sj03.png"></div>
+                </div>
+            </div>
+            <!-- 资源共享  侧边栏选择区域_03-->
+            <div id="cblxzqy_03">
+                <!-- 轮播图  -->
+                <div class="cblxzqy_03_img">
+                    <div class="cblxzqy_03_imgdiv">
+                        <img src="resources/image/cblxzqy/03/cblxzqy_03_1.jpg">
+                        <!--下面的<img>用js生成,位置在 侧边栏选择区域.js-->
+                    </div>
+                    <ul class="cblxzqy_03_imgul">
+                        <li class="active"></li>
+                        <!--下面的<li>用js生成,位置在 侧边栏选择区域.js-->
+                    </ul>
+                    <span class="toparrow">&Lambda;</span>
+                    <span class="bottomarrow">&nu;</span>
+                </div>
+            </div>
+            <!--侧边栏选择区域_04-->
+            <div id="cblxzqy_04"></div>
+            <!--侧边栏选择区域_05-->
+            <div id="cblxzqy_05"></div>
+            <!--侧边栏选择区域_06-->
+            <div id="cblxzqy_06"></div>
+        </div>
+    </div>
+
+
+    <!-- 入场动画 Entrance animation  效果：内容以打字的形式显示-->
+    <div id="Entranceanimation"></div>
+    <!--背景图 -->
+    <div id="Backgroundimage"></div>
+    <!--最底层一行小字，背景图片加载好后将被覆盖-->
+    <p id="leixing">
+        欲乘风散去，游览世间繁华，待金黄之境，汇聚万千初心
+    </p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+/*侧边栏选择区域*/
+#cblxzqy{
+    width: 82%;
+    height: 100%;
+    background-color: #efefef;
+    box-sizing: border-box;
+
+    position: absolute;
+    right: 0;
+
+}
+/*侧边栏选择区域_01 主页图片*/
+#cblxzqy_01{
+    width: 100%;
+    height: 100%;
+    background-image: url("../resources/image/cblxzqy/01/cblxzqy_01_zhuye.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    z-index: 9;
+}
+/*侧边栏选择区域_02*/
+#cblxzqy_02{
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    z-index: 8;
+}
+/*侧边栏选择区域_02 H3标签总样式 */
+#cblxzqy_02 h3{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgba(40,40,40,0.8);
+    text-align: left;
+    margin: 50px 0px;
+}
+
+/*侧边栏选择区域_02 顶部图片样式*/
+.cblxzqy_02_img{
+    width: 100%;
+    height: 360px;
+    background-image: url("../resources/image/cblxzqy/02/cblxzqy_02_top.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position: relative;
+}
+/*侧边栏选择区域_02 顶部文本样式*/
+.cblxzqy_02_text{
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    color: #282828;
+    font-size: 22px;
+    letter-spacing:1px;
+    background: linear-gradient(to bottom right,#25d8df , #CD69C9);
+    border-radius: 5px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    margin: auto;
+}
+/*侧边栏选择区域_02 站长资料*/
+.cblxzqy_02_zhiliao{
+    width: 90%;
+    text-align: left;
+    margin: 80px auto 10px auto;
+}
+.cblxzqy_02_zhiliao1{
+    width: 25%;
+    border-right: 1px dashed rgba(40,40,40,0.2);
+    float: left;
+}
+.cblxzqy_02_zhiliao1 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(40,40,40,0.1);
+}
+.cblxzqy_02_zhiliao1 a{
+    display: inline-block;
+    width: 70%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #f9f9f9;
+    background-color: #a5adf6;
+
+    text-align: center;
+    margin-top: 40px;
+}
+.cblxzqy_02_zhiliao2{
+    width: 60%;
+    padding-left: 10%;
+    float: left;
+}
+.cblxzqy_02_zhiliao2 p {
+    width: 90%;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    text-shadow: 10px 10px 10px #909090;
+    text-align: justify;
+    color: rgba(40,40,40,0.9);
+    border-bottom: 1px dashed rgba(40,40,40,0.2);
+}
+.cblxzqy_02_zhiliao3{
+    width: 90%;
+    text-align: left;
+    margin: 10px auto 10px auto;
+}
+.cblxzqy_02_zhiliao3 div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background: #f9f9f9;
+
+    display: inline-block;
+
+}
+/*侧边栏选择区域_03*/
+#cblxzqy_03{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    z-index: 7;
+}
+/*侧边栏选择区域_03 顶部轮播图*/
+.cblxzqy_03_img {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    overflow: hidden;
+}
+.cblxzqy_03_img .cblxzqy_03_imgdiv{
+    width: 100%;
+    height: 360px;
+    position: relative;
+
+}
+.cblxzqy_03_img img{
+    width: 100%;
+    height: 360px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    margin-bottom: -4px;
+}
+/*侧边栏选择区域_03 顶部轮播图中的无序列表样式*/
+.cblxzqy_03_img .cblxzqy_03_imgul {
+    display: inline-block;
+    position:relative;
+    top: -50%;
+    right: -48%;
+}
+.cblxzqy_03_imgul li {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.cblxzqy_03_imgul .active {
+    background-color: #3399CC;
+}
+.cblxzqy_03_imgul li:hover{
+    cursor: pointer;/*光标指针*/
+    transition: 0.3s;
+    transform: scale(1.5);
+}
+/*侧边栏选择区域_03 顶部轮播图中的箭头样式*/
+.cblxzqy_03_img span{
+    font-size: 20px;
+    color:#282828;
+    background-color: rgba(40, 40, 40, 0.6);
+    border-radius: 8px; /*圆角边框*/
+   
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.cblxzqy_03_img span:hover{
+    cursor: pointer;/*光标指针*/
+    transition: 0.3s;
+    transform: scale(1.5);
+    background-color: rgba(240, 240, 240, 0.6);
+}
+.cblxzqy_03_img .toparrow{
+    top: 0;
+}
+.cblxzqy_03_img .bottomarrow{
+    bottom: 0;
+}
